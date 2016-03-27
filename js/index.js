@@ -72,7 +72,7 @@ $( document ).ready(function() {
     }).append($img);
     
     $newskill = $('<div />', {
-        "class": 'bigger col-xs-3 col-md-3 ' + skill.name
+        "class": 'bigger col-xs-3 col-md-3' + skill.name
     }).append($newa);
     $newskill.appendTo('#skill');
   })
